@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    background-image: url("img/mov-bg.jpg");
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1rem;
+    
+}
+
+#title {
+    color: white;
+    float: left;
+}
+
+#clock {
+    margin: 20px auto;
+    padding: 0;
+    background: #333;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 34px;
+    font-family: calibri;
+  }
+
+.layout {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.m-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    
+}
+
+.c-video {
+    /* width: 100%; */
+    position: relative;    
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.controls {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.buttons button {
+    background: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.buttons button:before {
+    content: '\f144';
+    font-family: 'Font Awesome 5 free';
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 28px;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.s-container {
+    margin-top: 4rem;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.day {
+    color: orange;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    color: white;
+}
+
+.day-list {
+    /* padding: 3rem; */
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: orange;
+}
+a:active {
+    color: white;
+}
