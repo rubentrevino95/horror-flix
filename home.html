@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horror Flix</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body onload="onload();">
+    <div class="layout">
+        <ul class="nav">
+            <li class="item">
+                <h1 id="title">Horror Flix</h1>
+            </li>           
+        </ul>
+        <!-- <div id="clock"></div> -->
+        <!-- Video -->
+        <div class="m-container">
+            <div class="c-video">
+                <video id="video" style="height: 700px;" onended="onVideoEnded();"></video>
+            </div>
+        </div>
+        <!-- Schedule -->
+        <div class="s-container">
+                <div class="day-list col-6 col-md-4">
+                <h3 class="day">Monday</h3>
+                <ul>
+                    <li>Halloween Franchise</li>
+                </ul> 
+                </div>
+
+                <div class="day-list col-6 col-md-4">
+                    <h3 class="day">Tuesday</h3>
+                    <ul>
+                        <li>Nightmare on Elm Street Franchise</li>
+                    </ul> 
+                </div>
+
+                <div class="day-list col-6 col-md-4">
+                    <h3 class="day">Wednesday</h3>
+                    <ul>
+                        <ul>
+                            <li>Child's Play Franchise</li>
+                        </ul>
+                    </ul> 
+                </div>
+
+                <div class="day-list col">
+                    <h3 class="day">Thursday</h3>
+                    <ul>
+                        <ul>
+                            <li>The Texas Chainsaw Massacre Franchise</li>
+                        </ul>
+                    </ul> 
+                </div>
+
+                <div class="day-list col">
+                    <h3 class="day">Friday</h3>
+                    <ul>
+                        <ul>
+                            <li>Friday the 13th Franchise</li>
+                        </ul>
+                    </ul> 
+                </div>
+
+                <div class="day-list">
+                    <h3 class="day">Saturday</h3>
+                    <ul>
+                        <ul>
+                            <li>Scream Saturday</li>
+                        </ul>
+                    </ul> 
+                </div>
+
+                <div class="day-list">
+                    <h3 class="day">Sunday</h3>
+                    <ul>
+                        <ul>
+                            <li>Wild Card Sunday</li>
+                        </ul>
+                    </ul> 
+                </div>
+        </div>
+
+    </div>
+    <script src="js/custom.js"></script>
+    <!-- <script src="js/clock.js"></script> -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+</body>
+</html>
