@@ -1,2 +1,2 @@
-const client = filestack.init(fsKey);
-client.picker().open();
+// const client = filestack.init("fsKey");
+// client.picker().open();

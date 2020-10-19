@@ -1,21 +1,41 @@
+var movies = [
+    {
+        series: 'Halloween',
+        urlList: []
+    },
+    {
+        series: 'Nightmare on Elm Street',
+        urlList: []
+    },
+    {
+        series: 'Scream',
+        urlList: []
+    },
+    {
+        series: 'Childs Play',
+        urlList: []
+    },
+    {
+        series: 'Texas Chainsaw Massacre',
+        urlList: []
+    },
+    {
+        series: 'Friday the 13th',
+        urlList: []
+    },
+    {
+        series: 'Wildcard',
+        urlList: []
+    }
+];
 
-// var video_list = [
-//     {
-//         franchise: "Halloween",
-//         movies: ["videos/Halloween 2.mp4"]
-//     },
-//     {
-//         franchise: "A Nightmare on Elm Street",
-//         movies: [""]
-//     },
-//     {
-//         franchise: "Friday the 13th",
-//         movies: [""]
-//     },
-// ];
-// var video_index = video_list[0].movies[0];
 
-var video_list = ["videos/Halloween 2.mp4", "videos/Halloween 3.mp4", "vidoes/Halloween 4.mp4", "vidoes/Halloween 5 The Revenge of Michael Myers.mp4", "vidoes/Halloween 6 The Curse of Michael Myers.mp4", "vidoes/Halloween 7 H20.mp4", "vidoes/Halloween 8  Resurrection.mp4"];
+var video_list = [
+    "https://h-flix.s3.us-east-2.amazonaws.com/friday+the+13th+collection/Friday+The+13th+Part+1.mp4",
+    "https://h-flix.s3.us-east-2.amazonaws.com/friday+the+13th+collection/Friday+The+13th+Part+2.mp4",
+    "https://h-flix.s3.us-east-2.amazonaws.com/friday+the+13th+collection/Friday+The+13th+Part+3.mp4",
+    "https://h-flix.s3.us-east-2.amazonaws.com/friday+the+13th+collection/Friday+The+13th+Part+4+The+Final+Chapter.mp4"
+];
 var video_index = 0;
 var video_player = null;
 
