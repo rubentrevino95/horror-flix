@@ -39,4 +39,3 @@ function onVideoEnded() {
     video_player.setAttribute("src", video_list[video_index]);
     video_player.play();
 }
-
